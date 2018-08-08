@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>timg.jpg</file>
+        <file>I love you.jpg</file>
+        <file>爱你.jpg</file>
+        <file>很爱你.jpg</file>
+    </qresource>
+</RCC>
