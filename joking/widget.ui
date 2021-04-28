@@ -57,10 +57,15 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+    <string notr="true">font: 11pt &quot;Agency FB&quot;;
+color: rgba(255, 85, 0, 125);
+background:transparent</string>
    </property>
    <property name="text">
     <string>想</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
@@ -73,10 +78,15 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 11pt &quot;Agency FB&quot;;</string>
+    <string notr="true">font: 11pt &quot;Agency FB&quot;;
+color: rgba(255, 85, 0, 125);
+background:transparent</string>
    </property>
    <property name="text">
     <string>不想</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
    </property>
   </widget>
  </widget>

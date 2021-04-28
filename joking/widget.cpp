@@ -17,7 +17,7 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    setWindowFlags(Qt::FramelessWindowHint|Qt::WindowSystemMenuHint|Qt::WindowStaysOnTopHint);
+    setWindowFlags(Qt::FramelessWindowHint);
     qsrand(QTime(0, 0, 0).secsTo(QTime::currentTime()));
     setMouseTracking(true);
     ui->pushButton_2->setMouseTracking(true);
@@ -75,5 +75,5 @@ bool Widget::enterBtn(QPoint pp, QPushButton *btn)
 void Widget::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
-    painter.drawPixmap(0,0,width(),height(),QPixmap(":/image/爱你.jpg"));
+    painter.drawPixmap(0,0,width(),height(),QPixmap(":/image/loveyou.jpg"));
 }

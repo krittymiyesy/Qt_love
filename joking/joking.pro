@@ -8,7 +8,7 @@ QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Annzoe
+TARGET = LoveTigerPan
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -24,15 +24,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+    hu.cpp \
         main.cpp \
         widget.cpp \
     mydialog.cpp
 
 HEADERS += \
+    hu.h \
         widget.h \
     mydialog.h
 
 FORMS += \
+    hu.ui \
         widget.ui \
     mydialog.ui
 
